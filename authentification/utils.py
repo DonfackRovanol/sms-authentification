@@ -2,7 +2,7 @@ import os
 from twilio.rest import Client 
  
 account_sid = 'AC93eb079fd6f989960366bb6834e6b84f' 
-auth_token = '2350eca340520ee896aab5ba7ddd243b' 
+auth_token =''
 client = Client(account_sid, auth_token) 
 def send_sms(user_code, phone_number):
     message = client.messages.create(    
